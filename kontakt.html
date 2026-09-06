@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kontakt</title>
+    </head>
+    <body>
+        <header>
+            <p>Mickes site</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="hobby.html">Hobby</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Kontakt</h1>
+            <p>Det går att nå mig via detta formulär</p>
+            <form>
+                <fieldset>
+                    <legend>Bli kontaktad</legend>
+                    <label for="name">Namn:</label>
+                    <input type="text" id="name" name="name" placeholder="Skriv ditt namn här" required>
+                    <br>
+                    <label for="email">E-post:</label>
+                    <input type="email" id="email" name="email" placeholder="namn@doman.com" required>
+                    <br>
+                    <label for="message">Meddelande</label>
+                    <textarea name="message" id="message" required></textarea>
+                    <br>
+                    <label for="reply">Jag vill bli kontaktad via e-post</label>
+                    <input type="checkbox" id="reply" name="reply" value="yes">
+                    <br>
+                    <button type="submit">Skicka</button>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <a href="kontakt.html">© 2026 Micke</a>
+        </footer>
+    </body>
+</html>
